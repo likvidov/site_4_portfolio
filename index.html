@@ -2,8 +2,255 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Britlex</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <h1 class="header__logo">Brit<span>lex</span></h1>
+
+          <ul class="header__items">
+            <li class="header__item"><a href="#learn">Home</a></li>
+            <li class="header__item"><a href="#skills">Skills</a></li>
+            <li class="header__item"><a href="#about">About Us</a></li>
+            <li class="header__item"><a href="#pricing">Pricing</a></li>
+            <li class="header__item"><a href="#contacts">Contacts</a></li>
+          </ul>
+
+          <a class="header__btn btn" href="#contacts">Let’s Talk</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="learn" class="learn">
+      <div class="container">
+        <div class="learn__inner">
+          <div class="learn__content">
+            <h2 class="learn__title title">Learn <br />Any Foreign Language</h2>
+            <p class="learn__description description">
+              With our teachers who write a program for each student, you will
+              be able to make your first sketch after the first lesson.
+            </p>
+            <a href="#contacts" class="learn__btn btn">Get started</a>
+          </div>
+          <div class="learn__aside">
+            <img src="img/learning.svg" alt="Learning" class="learn__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="skills__title title">Skills</h2>
+
+        <div class="skills__list">
+          <div class="skills-list__item speaking">
+            <div class="skills-item__image">
+              <img src="img/skill-speaking.svg" alt="Speaking" />
+            </div>
+            <div class="skills-item__content">
+              <h3 class="item-content__title">Speaking</h3>
+              <p class="item-content__text">
+                Improve your English skills and confidence. Live classes and
+                interactive lessons online. 20% extra free for a limited time
+                only
+                <br />
+                <br />
+
+                Learn English online and improve your <br />
+                skills through our high-quality courses <br />
+                and resources – all designed for adult language learners.
+              </p>
+              <button class="item-content__btn btn">Learn more</button>
+            </div>
+          </div>
+          <div class="skills-list__item writing">
+            <div class="skills-item__image">
+              <img src="img/skill-writing.svg" alt="Writing" />
+            </div>
+            <div class="skills-item__content">
+              <h3 class="item-content__title">Writing</h3>
+              <p class="item-content__text">
+                One of the most important and extensive areas of natural
+                science, the science that studies substances, also their
+                composition
+              </p>
+              <button class="item-content__btn btn">Learn more</button>
+            </div>
+          </div>
+          <div class="skills-list__item reading">
+            <div class="skills-item__image">
+              <img src="img/skill-reading.svg" alt="Speaking" />
+            </div>
+            <div class="skills-item__content">
+              <h3 class="item-content__title">Reading</h3>
+              <p class="item-content__text">
+                perception and response actions of the user resulting from the
+                use and/or upcoming use of the product, system or service
+              </p>
+              <button class="item-content__btn btn">Learn more</button>
+            </div>
+          </div>
+          <div class="skills-list__item listening">
+            <div class="skills-item__image">
+              <img src="img/skill-listening.svg" alt="Speaking" />
+            </div>
+            <div class="skills-item__content">
+              <h3 class="item-content__title">Listening</h3>
+              <p class="item-content__text">
+                Here you can find activities to practise your listening skills.
+                Listening will help you to improve your understanding
+              </p>
+              <button class="item-content__btn btn">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__content">
+            <h2 class="about__title title">About Us</h2>
+            <p class="about__description description">
+              The model offers a framework for discussing problems related to
+              the user's experience, as well as possible ways and means of
+              solving them. Application development begins at the top level
+              (strategy), where the future software product is described quite
+              abstractly from the point of view of the expectations of both
+              users and the customer.
+            </p>
+            <div class="about__items">
+              <div class="about__item">
+                <h3>800</h3>
+                <p>Pupils</p>
+              </div>
+              <div class="about__item">
+                <h3>18</h3>
+                <p>Teachers</p>
+              </div>
+              <div class="about__item">
+                <h3>6</h3>
+                <p>Foreign languages</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__aside">
+            <img
+              src="img/bussiness.svg"
+              alt="Bussiness"
+              class="about-aside__img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="pricing__inner">
+          <h2 class="pricing__title title">Pricing</h2>
+
+          <div class="pricing__items">
+            <div class="pricing__item">
+              <img src="img/test.svg" alt="Test" class="priciing-item__img" />
+              <h3 class="pricing-item__title">Self-study online course</h3>
+              <p class="pricing-item__description">
+                Start learning English online in live classes with qualified EC
+                teachers and students from all over the world.
+              </p>
+              <button class="pricing-item__btn">
+                £5.99 <span>per month</span>
+              </button>
+            </div>
+            <div class="pricing__item">
+              <img
+                src="img/lesson.svg"
+                alt="Lesson"
+                class="priciing-item__img"
+              />
+              <h3 class="pricing-item__title">Live online classes</h3>
+              <p class="pricing-item__description">
+                Interactive group classes with expert teachers. Free 7-day trial
+              </p>
+              <button class="pricing-item__btn">
+                £12.99<span>per month</span>
+              </button>
+            </div>
+            <div class="pricing__item">
+              <img
+                src="img/webinar.svg"
+                alt="Webinar"
+                class="priciing-item__img"
+              />
+              <h3 class="pricing-item__title">Personal Tuition</h3>
+              <p class="pricing-item__description">
+                Online one-to-one English tutoring – enjoy our first session for
+                only $1
+              </p>
+              <button class="pricing-item__btn">
+                £20.99<span>per month</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <img src="img/contact.svg" alt="Contact us" class="contact__img" />
+
+          <div class="contact__content">
+            <h2 class="contact__title title">Contact Us</h2>
+            <p class="contact__description">
+              Discover your current English level by taking our free online
+              English test.Sign up to our newsletter for learning tips and free
+              resources
+            </p>
+
+            <div class="contact__form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="contact__email"
+                placeholder="Enter Your E-mail"
+              />
+              <a class="contact__btn" href="#learn">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h2 class="footer__logo">Brit<span>lex</span></h2>
+
+          <nav class="footer__menu">
+            <ul class="footer-menu__items">
+              <li class="footer-menu__item">
+                <a href="#">Terms and Conditions</a>
+              </li>
+              <li class="footer-menu__item"><a href="#">Privacy Policy</a></li>
+              <li class="footer-menu__item"><a href="#">Cookie Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
